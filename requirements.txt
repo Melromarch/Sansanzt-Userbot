@@ -104,4 +104,4 @@ youtube_dl
 youtube_search
 youtube-search-python==1.4.9
 zipfile38
-py-tgcalls==0.8.6
+py-tgcalls
