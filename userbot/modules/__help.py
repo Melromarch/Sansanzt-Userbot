@@ -27,7 +27,7 @@ from userbot.utils import edit_or_reply, kyy_cmd
 tgbotusername = BOT_USERNAME
 
 
-@kyy_cmd(pattern="helpme$")
+@sansanzt_cmd(pattern="helpme$")
 async def yardim(event):
     if event.fwd_from:
         return
