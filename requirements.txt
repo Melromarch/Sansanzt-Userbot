@@ -53,8 +53,8 @@ patool
 pendulum
 pillow
 psutil
-
-psycopg
+py-tgcalls
+psycopg2
 psycopg2-binary
 pybase64
 pylast
