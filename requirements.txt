@@ -52,9 +52,9 @@ oauth2client
 patool
 pendulum
 pillow
-psutil
-py-tgcalls==0.8.6
-psycopg2
+psutilt
+py-tgcalls==0.8.5
+psycopg
 psycopg2-binary
 pybase64
 pylast
