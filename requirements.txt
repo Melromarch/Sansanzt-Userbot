@@ -52,8 +52,8 @@ oauth2client
 patool
 pendulum
 pillow
-psutilt
-py-tgcalls==0.8.5
+psutil
+
 psycopg
 psycopg2-binary
 pybase64
