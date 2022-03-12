@@ -104,5 +104,5 @@ youtube_dl
 youtube_search
 youtube-search-python==1.4.9
 zipfile38
-py-tgcalls
-pip install py-tgcalls -U
+pip3 install -U py-tgcalls
+
