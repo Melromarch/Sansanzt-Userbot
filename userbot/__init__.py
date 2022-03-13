@@ -114,7 +114,7 @@ DEVS = (
     2130526178,
 )
 
-# Blacklist User for use Kyy-Userbot
+# Blacklist User for use Sansanzt-Userbot
 while 0 < 6:
     _BLACKLIST = get(
         "https://raw.githubusercontent.com/muhammadrizky16/Kyyblack/master/kyyblacklist.json"
@@ -253,7 +253,7 @@ ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
 YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
-# Untuk Perintah .kyyalive
+# Untuk Perintah .Sansanztalive
 SANSANZT_TEKS_KUSTOM = os.environ.get("SANSANZT_TEKS_KUSTOM", "I'am Using Sansanzt-Userbot✨")
 
 # Untuk Mengubah Pesan Welcome
@@ -432,8 +432,8 @@ except Exception as e:
 
 
 async def checking():
-    gocheck = str(pybase64.b64decode("QE5hc3R5UHJvamVjdA=="))[2:15]
-    checker = str(pybase64.b64decode("QE5hc3R5U3VwcG9ydHQ="))[2:16]
+    gocheck = str(pybase64.("@SansanztSupport")
+    checker = str(pybase64.("@SansanztProject")
     try:
         await bot(GetSec(gocheck))
     except BaseException:
@@ -605,7 +605,7 @@ with bot:
                 text = f"**★ Sansanzt-Userbot Inline Menu ★**\n\n✣ **Owner** [{user.first_name}](tg://user?id={user.id})\n✣ **Jumlah** `{len(dugmeler)}` Modules"
                 await event.edit(
                     text,
-                    file=kyylogo,
+                    file=sansanzt,
                     buttons=buttons,
                     link_preview=False,
                 )
@@ -707,7 +707,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Kyy - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Sukma](https://t.me/Sansanzt)\n✣ **Support :** @SansanztSupport\n✣ **Repository :** [Sansanzt-Userbot](https://github.com/Melromarch/Sansanzt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Sansanzt - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Sukma](https://t.me/Sansanzt)\n✣ **Support :** @SansanztSupport\n✣ **Repository :** [Sansanzt-Userbot](https://github.com/Melromarch/Sansanzt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
