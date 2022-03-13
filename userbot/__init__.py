@@ -254,7 +254,7 @@ YOUTUBE_API_KEY = os.environ.get(
     "YOUTUBE_API_KEY") or "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg"
 
 # Untuk Perintah .kyyalive
-KYY_TEKS_KUSTOM = os.environ.get("SANSANZT_TEKS_KUSTOM", "I'am Using Sansanzt-Userbot✨")
+SANSANZT_TEKS_KUSTOM = os.environ.get("SANSANZT_TEKS_KUSTOM", "I'am Using Sansanzt-Userbot✨")
 
 # Untuk Mengubah Pesan Welcome
 START_WELCOME = os.environ.get("START_WELCOME", None)
@@ -701,7 +701,7 @@ with bot:
                 result = builder.article(
                     title="Repository",
                     description="Repository Sansanzt - Userbot",
-                    url="https://t.me/NastySupportt",
+                    url="https://t.me/SansanztSupport",
                     thumb=InputWebDocument(
                         INLINE_PIC,
                         0,
