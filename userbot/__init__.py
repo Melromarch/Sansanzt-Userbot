@@ -707,7 +707,7 @@ with bot:
                         0,
                         "image/jpeg",
                         []),
-                    text="**Sansanzt - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Sukma](https://t.me/Sansanzt)\n✣ **Support :** @SansanztSupport\n✣ **Repository :** [Sansanzt-Userbot](https://github.com/Melromarch/Sansanzt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Sansanzt - Userbot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Sansanzt](https://t.me/Sansanzt)\n✣ **Support :** @SansanztSupport\n✣ **Repository :** [Sansanzt-Userbot](https://github.com/Melromarch/Sansanzt-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
