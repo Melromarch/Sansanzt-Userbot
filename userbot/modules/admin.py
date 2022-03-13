@@ -83,7 +83,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 # ================================================
 
 
-@sansanzt_cmd(pattern=r"^\.setgpic$")
+@kyy_cmd(pattern=r"^\.setgpic$")
 @register(pattern=r"^\.csetgpic( -s| -d)$", sudo=True)
 async def set_group_photo(event):
     "For changing Group dp"
@@ -120,7 +120,7 @@ async def set_group_photo(event):
         await edit_delete(event, "**Foto Profil Grup Berhasil dihapus.**", 30)
 
 
-@sansanzt_cmd(pattern="promote(?:\\s|$)([\\s\\S]*)")
+@kyy_cmd(pattern="promote(?:\\s|$)([\\s\\S]*)")
 @register(pattern=r"^\.cpromote(?:\s|$)([\s\S]*)", sudo=True)
 async def promote(event):
     # Get targeted chat
@@ -169,7 +169,7 @@ async def promote(event):
         )
 
 
-@sansanzt_cmd(pattern="demote(?:\\s|$)([\\s\\S]*)")
+@kyy_cmd(pattern="demote(?:\\s|$)([\\s\\S]*)")
 @register(pattern=r"^\.cdemote(?:\s|$)([\s\S]*)", sudo=True)
 async def demote(event):
     # Admin right check
