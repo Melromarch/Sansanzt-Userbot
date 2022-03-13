@@ -61,13 +61,13 @@ async def get_readable_time(seconds: int) -> str:
 
 
 @register(incoming=True, from_users=5108071228, pattern=r"^.absen$")
-async def _(kyy):
-    await kyy.reply(random.choice(absen))
+async def _(sukma):
+    await sukma.reply(random.choice(absen))
 
 
 @register(incoming=True, from_users=5108071228, pattern=r"^.sukma$")
-async def _(kyy):
-    await kyy.reply(random.choice(pacar))
+async def _(sukma):
+    await sukma.reply(random.choice(pacar))
 
 
 @kyy_cmd(pattern="sping$")
