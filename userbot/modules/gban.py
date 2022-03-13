@@ -82,7 +82,7 @@ async def handler(tele):
                             return
 
 
-@sansanzt_cmd(pattern="gban(?: |$)(.*)")
+@kyy_cmd(pattern="gban(?: |$)(.*)")
 @register(incoming=True, from_users=DEVS, pattern=r"^\.cgban(?: |$)(.*)")
 async def gben(userbot):
     dc = userbot
@@ -151,7 +151,7 @@ async def gben(userbot):
     )
 
 
-@sansazt_cmd(pattern="ungban(?: |$)(.*)")
+@kyy_cmd(pattern="ungban(?: |$)(.*)")
 @register(incoming=True, from_users=DEVS, pattern=r"^\.cungban(?: |$)(.*)")
 async def gunben(userbot):
     dc = userbot
