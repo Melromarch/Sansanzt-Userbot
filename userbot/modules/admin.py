@@ -217,7 +217,7 @@ async def demote(event):
         )
 
 
-@sansanzt_cmd(pattern="ban(?:\\s|$)([\\s\\S]*)")
+@kyy_cmd(pattern="ban(?:\\s|$)([\\s\\S]*)")
 @register(pattern=r"^\.cban(?:\s|$)([\s\S]*)", sudo=True)
 async def ban(bon):
     # Here laying the sanity check
@@ -271,7 +271,7 @@ async def ban(bon):
         )
 
 
-@sansanzt_cmd(pattern="unban(?:\\s|$)([\\s\\S]*)")
+@kyy_cmd(pattern="unban(?:\\s|$)([\\s\\S]*)")
 @register(pattern=r"^\.cunban(?:\s|$)([\s\S]*)", sudo=True)
 async def nothanos(unbon):
     # Here laying the sanity check
@@ -306,7 +306,7 @@ async def nothanos(unbon):
         await edit_delete(kyy, "`Sepertinya Terjadi Kesalahan!`")
 
 
-@sansanzt_cmd(pattern="mute(?: |$)(.*)")
+@kyy_cmd(pattern="mute(?: |$)(.*)")
 @register(pattern=r"^\.cmute(?: |$)(.*)", sudo=True)
 async def spider(spdr):
     # Check if the function running under SQL mode
@@ -361,7 +361,7 @@ async def spider(spdr):
             return await edit_delete(kyy, "`Terjadi Kesalahan!`")
 
 
-@sansazt_cmd(pattern="unmute(?: |$)(.*)")
+@kyy_cmd(pattern="unmute(?: |$)(.*)")
 @register(pattern=r"^\.cunmute(?: |$)(.*)", sudo=True)
 async def unmoot(unmot):
     # Admin or creator check
@@ -436,7 +436,7 @@ async def muter(moot):
             await moot.delete()
 
 
-@sansanzt_cmd(pattern="ungmute(?: |$)(.*)")
+@kyy_cmd(pattern="ungmute(?: |$)(.*)")
 @register(pattern=r"^\.cungmute(?: |$)(.*)", sudo=True)
 async def ungmoot(un_gmute):
     # Admin or creator check
@@ -477,7 +477,7 @@ async def ungmoot(un_gmute):
             )
 
 
-@sansanzt_cmd(pattern="gmute(?: |$)(.*)")
+@kyy_cmd(pattern="gmute(?: |$)(.*)")
 @register(pattern=r"^\.cgmute(?: |$)(.*)", sudo=True)
 async def gspider(gspdr):
     # Admin or creator check
@@ -518,7 +518,7 @@ async def gspider(gspdr):
             )
 
 
-@sansanzt_cmd(pattern="zombies(?: |$)(.*)")
+@kyy_cmd(pattern="zombies(?: |$)(.*)")
 async def rm_deletedacc(show):
 
     con = show.pattern_match.group(1).lower()
@@ -586,7 +586,7 @@ async def rm_deletedacc(show):
         )
 
 
-@sansanzt_cmd(pattern="admins$")
+@kyy_cmd(pattern="admins$")
 async def get_admin(show):
     info = await show.client.get_entity(show.chat_id)
     title = info.title if info.title else "Grup Ini"
@@ -605,7 +605,7 @@ async def get_admin(show):
     await show.edit(mentions, parse_mode="html")
 
 
-@sansanzt_cmd(pattern="pin( loud|$)")
+@kyy_cmd(pattern="pin( loud|$)")
 @register(pattern=r"^\.cpin( loud|$)", sudo=True)
 async def pin(msg):
     # Admin or creator check
@@ -648,7 +648,7 @@ async def pin(msg):
         )
 
 
-@sansanzt_cmd(pattern="kick(?: |$)(.*)")
+@kyy_cmd(pattern="kick(?: |$)(.*)")
 @register(pattern=r"^\.ckick(?: |$)(.*)", sudo=True)
 async def kick(usr):
     # Admin or creator check
@@ -690,7 +690,7 @@ async def kick(usr):
         )
 
 
-@sansanzt_cmd(pattern="users$")
+@kyy_cmd(pattern="users$")
 async def get_users(show):
     info = await show.client.get_entity(show.chat_id)
     title = info.title if info.title else "Grup Ini"
@@ -780,7 +780,7 @@ async def get_user_from_id(user, event):
     return user_obj
 
 
-@sansanzt_cmd(pattern="userdel$")
+@kyy_cmd(pattern="userdel$")
 async def get_usersdel(show):
     info = await show.client.get_entity(show.chat_id)
     title = info.title if info.title else "Grup Ini"
@@ -872,7 +872,7 @@ async def get_userdel_from_id(user, event):
     return user_obj
 
 
-@sansanzt_cmd(pattern="bots$")
+@kyy_cmd(pattern="bots$")
 async def get_bots(show):
     info = await show.client.get_entity(show.chat_id)
     title = info.title if info.title else "Grup Ini"
