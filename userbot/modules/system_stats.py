@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**⚜-**✨Kyy-Userbot✨ Versi:** \n "
+            "**⚜-**✨Sansanzt-Userbot✨ Versi:** \n "
             f"heads/Kyy-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f" **✨ҡʏʏ-υѕєявσт✨** \n\n"
+        f" **✨𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨** \n\n"
         f"\n__**{SANSANZT_TEKS_KUSTOM}**__\n\n\n"
         f"╭✠╼━━━━━━━━━━━━━━━✠╮\n"
         f"◙ `Name       :` {DEFAULTUSER} \n"
@@ -238,7 +238,7 @@ async def amireallyalive(alive):
         f"◙ `Bot Ver    :` {BOT_VER} \n"
         f"◙ `Modules    :` {len(modules)} \n"
         f"╰✠╼━━━━━━━━━━━━━━━✠╯\n"
-        f"[ɢʀᴏᴜᴘꜱ](https://t.me/NastySupportt) | [ᴄʜᴀɴɴᴇʟ](https://t.me/NastyProject) | [ᴏᴡɴᴇʀ](https://t.me/IDnyaKosong) | [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)")
+        f"[ɢʀᴏᴜᴘꜱ](https://t.me/SansanztSupport) | [ᴄʜᴀɴɴᴇʟ](https://t.me/SansanztProject) | [ᴏᴡɴᴇʀ](https://t.me/Sansanzt) | [ɢɪᴛʜᴜʙ](https://github.com/Melromarch/Sansanzt-Userbot)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -265,7 +265,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"●▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬● \n"
-        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Kyy](t.me/IDnyaKosong) \n"
+        f"✾ 🤴 • `ᴏᴡɴᴇʀ    :`[Sansanzt](t.me/Sansanzt) \n"
         f"✾ 🖥️ • `ꜱʏꜱᴛᴇᴍ   :`Ubuntu 20.10 \n"
         f"✾ ⚙️ • `ᴛᴇʟᴇᴛʜᴏɴ :`v.{version.__version__} \n"
         f"✾ 🐍 • `ᴘʏᴛʜᴏɴ   :`v.{python_version()} \n"
@@ -306,7 +306,7 @@ async def redis(alive):
     await xx.edit("✨")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━✨ҡʏʏ-υѕєявσт✨━━━━ \n"
+        f"┏━━━━✨𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨━━━━ \n"
         f"┣  **Name     :** {DEFAULTUSER} \n"
         f"┣  **Username :** @{user.username} \n"
         f"┣  **Telethon :** Ver {version.__version__} \n"
@@ -314,9 +314,9 @@ async def redis(alive):
         f"┣  **Branch   :** {UPSTREAM_REPO_BRANCH} \n"
         f"┣  **Bot Ver  :** {BOT_VER} \n"
         f"┣  **Modules  :** {len(modules)} Modules \n"
-        f"┣  **GitHub   :** [Kyy](https://github.com/muhammadrizky16/Kyy-Userbot) \n"
-        f"┣  **Support  :** [Groups](https://t.me/NastySupportt) \n"
-        f"┣  **Owner    :** [Kyy](https://t.me/IDnyaKosong) \n"
+        f"┣  **GitHub   :** [Sansanzt](https://github.com/Melromarch/Sansanzt-Userbot) \n"
+        f"┣  **Support  :** [Groups](https://t.me/SansanztSupport) \n"
+        f"┣  **Owner    :** [Sansanzt](https://t.me/Sansanzt) \n"
         f"┗━━━━━━━━━━━━━━━━━━━━━")
     if ALIVE_LOGO:
         try:
