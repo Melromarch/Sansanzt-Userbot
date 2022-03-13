@@ -13,7 +13,7 @@ async def usit(e):
     await e.edit(
         f"**Halo {DEFAULTUSER} Jika Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Telegram](t.me/sansanzt)"
-        "\n[Repo](https://github.com/Sansanzt-Userbot)"
+        "\n[Repo](https://github.com/S/Sansanzt-Userbot)"
         "\n[Instagram](instagram.com/rizkyhamdanii16_)")
 
 
@@ -27,7 +27,7 @@ async def var(m):
 CMD_HELP.update({
     "helper":
     "`.lhelp`\
-\nUsage: Bantuan Untuk Sansanzt-Userbot.\
+\nUsage: Bantuan Untuk Kyy-Userbot.\
 \n`.vars`\
 \nUsage: Melihat Daftar Vars."
 })
