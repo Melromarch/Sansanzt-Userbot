@@ -24,7 +24,7 @@ absen = [
     "**Hadir kak maap telat** 🥺",
 ]
 
-sukma = [
+sansanzt = [
     "**Saya Hadir Untuk Membasmi Para Jamet Telegram** 😎 ",
     "**Iya Bang kenapa?**",
     "**Uuyy Bang**",
@@ -65,7 +65,7 @@ async def _(sukma):
     await sukma.reply(random.choice(absen))
 
 
-@register(incoming=True, from_users=5108071228, pattern=r"^.sukma$")
+@register(incoming=True, from_users=5108071228, pattern=r"^.sansanzt$")
 async def _(sukma):
     await sukma.reply(random.choice(pacar))
 
