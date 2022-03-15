@@ -303,10 +303,10 @@ async def redis(alive):
     await xx.edit("__Sedang Memuat...__")
     await xx.edit("__Sedang Memuat..__")
     await xx.edit("__Sedang Memuat...__")
-    await xx.edit("✨")
+    await xx.edit("❄️")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━✨𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨━━━━ \n"
+        f"┏━━━━❄️𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭━❄️━━━ \n"
         f"┣  **Name     :** {DEFAULTUSER} \n"
         f"┣  **Username :** @{user.username} \n"
         f"┣  **Telethon :** Ver {version.__version__} \n"
