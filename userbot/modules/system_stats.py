@@ -165,7 +165,7 @@ async def bot_ver(event):
 
         await event.edit(
             "**⚜-**✨Sansanzt-Userbot✨ Versi:** \n "
-            f"heads/Kyy-Userbot-0-x634i7u1"
+            f"heads/Sansanzt-Userbot-0-x634i7u1"
             "\n**⚜-**Revisi:**\n "
             f"{revout}"
         )
@@ -306,7 +306,7 @@ async def redis(alive):
     await xx.edit("❄️")
     await asyncio.sleep(2)
     output = (
-        f"┏━━━━❄️𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭━❄️━━━ \n"
+        f"┏━━━━✨𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭━✨━━━ \n"
         f"┣  **Name     :** {DEFAULTUSER} \n"
         f"┣  **Username :** @{user.username} \n"
         f"┣  **Telethon :** Ver {version.__version__} \n"
