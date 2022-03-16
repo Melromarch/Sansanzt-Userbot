@@ -110,7 +110,7 @@ async def repo_is_here(wannasee):
     await edit_or_reply(wannasee,
                         "**Hey**, I am using **✨𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭-𝐔𝐬𝐞𝐫𝐛𝐨𝐭✨** \n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
-                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/muhammadrizky16/Kyy-Userbot)\n"
+                        "➣ **Repo Userbot :** [ɢɪᴛʜᴜʙ](https://github.com/Melromarch/Sansanzt-Userbot)\n"
                         "➣ **Owner Bot       :** [𝐒𝐚𝐧𝐬𝐚𝐧𝐳𝐭](t.me/Sansanzt)\n"
                         "卍━━━━━━━━━━━━━━━━━━━━━━卍\n"
                         "➣ **Support           :** [sᴜᴘᴘᴏʀᴛ](https://t.me/SansanztSupport)\n"
@@ -124,7 +124,7 @@ async def repo_is_here(wannasee):
     """For .repo command, just returns the repo URL."""
     await edit_or_reply(wannasee,
                         f"➣ **GET STRING SESSION VIA REPLIT :** [KLIK DISINI](https://replit.com/@rizkyhmdanii16/StringSession)\n"
-                        f"➣ **GET STRING SESSION VIA BOT    :** [KLIK DISINI](https://t.me/NastyStringbot)\n"
+                        f"➣ **GET STRING SESSION VIA BOT    :** [KLIK DISINI](https://t.me/StringSansanztRobot)\n"
                         )
 
 
