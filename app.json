@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya ke @IDnyaKosong di telegram",
+      "description": "Dapatkan String Session di bot string @StringSansanztRobot di Telegram kalo ga fau caranya silahkan kan tanya ke @SansanztSupport di Telegram",
       "required": true
     },
     "HEROKU_APP_NAME": {
