@@ -53,7 +53,7 @@ def kyy_cmd(
         ):
             kyy_reg = sudo_reg = re.compile(pattern)
         else:
-            sansanzt_ = "\\" + CMD_HANDLER
+            kyy_ = "\\" + CMD_HANDLER
             sudo_ = "\\" + SUDO_HANDLER
             kyy_reg = re.compile(kyy_ + pattern)
             sudo_reg = re.compile(sudo_ + pattern)
