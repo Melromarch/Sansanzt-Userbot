@@ -21,7 +21,7 @@ from userbot import (
 )
 
 
-def kyy_cmd(
+def sansanzt_cmd(
     pattern: str = None,
     allow_sudo: bool = True,
     disable_edited: bool = False,
@@ -51,11 +51,11 @@ def kyy_cmd(
             or not pattern.startswith(r"\#")
             and pattern.startswith(r"^")
         ):
-            kyy_reg = sudo_reg = re.compile(pattern)
+            sansanzt_reg = sudo_reg = re.compile(pattern)
         else:
-            kyy_ = "\\" + CMD_HANDLER
+            sansanzt_ = "\\" + CMD_HANDLER
             sudo_ = "\\" + SUDO_HANDLER
-            kyy_reg = re.compile(kyy_ + pattern)
+            kyy_reg = re.compile(sansanzt_ + pattern)
             sudo_reg = re.compile(sudo_ + pattern)
             if command is not None:
                 cmd1 = kyy_ + command
