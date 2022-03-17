@@ -83,7 +83,7 @@ UNMUTE_RIGHTS = ChatBannedRights(until_date=None, send_messages=False)
 # ================================================
 
 
-@kyy_cmd(pattern=r"^\.setgpic$")
+@sansanzt_cmd(pattern=r"^\.setgpic$")
 @register(pattern=r"^\.csetgpic( -s| -d)$", sudo=True)
 async def set_group_photo(event):
     "For changing Group dp"
